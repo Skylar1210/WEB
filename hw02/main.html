@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<body>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+
+        td{
+            border-width:3px;
+            border-style:solid;
+            width:3px;
+            height:1px;
+        }
+    </style> 
+
+<table>    
+    <script>
+        for( var a = 1; a < 10; a++ )
+        {
+            for( var b = 1; b <= a; b++ )
+            {
+                document.write( "<td>",b + "x" + a + "=" + a*b );
+                document.write( " " );
+            }
+            document.write( "<tr />" );
+        }
+        </script>
+</table>
+</body>
+</html>
